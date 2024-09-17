@@ -4,9 +4,9 @@
 This application is a University Course Registration System designed to manage student registrations, course assignments, and professor role and admin in managing all the courses like stuff. It supports multiple user types, including students, professors, and administrators, with each having specific functionalities.
 
 
-## Requirements:
-•	Java Development Kit (JDE)
-•	An IDE or Text Editor for Java files
+## Requirements: <br>
+•	Java Development Kit (JDE) <br>
+•	An IDE or Text Editor for Java files <br>
 •	Command line tools for running and compiling the java files
 
 
