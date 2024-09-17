@@ -1,10 +1,10 @@
-###University Course Registration System
+University Course Registration System
 
-##Overview:
+Overview:
 This application is a University Course Registration System designed to manage student registrations, course assignments, and professor role and admin in managing all the courses like stuff. It supports multiple user types, including students, professors, and administrators, with each having specific functionalities.
 
 
-##Requirements:
+Requirements:
 •	Java Development Kit (JDE)
 •	An IDE or Text Editor for Java files
 •	Command line tools for running and compiling the java files
@@ -14,7 +14,7 @@ Note:  Follow the prompts-
 The application will prompt you to select a user type (Student, Professor, or Admin). Based on your selection, you will be asked to log in with credentials and perform various actions as per the menu options.
 
 
-##Assumptions: 
+Assumptions: 
 •	Each user type (Student, Professor, Administrator) has specific credentials to login.
 •	Student can register for courses, view schedule, register for courses, drop courses, and submit complaints etc.
 •	Professor can view their courses, manage course details, and view enrolled students.
@@ -23,7 +23,7 @@ The application will prompt you to select a user type (Student, Professor, or Ad
 
 
 
-##OOPS Concept Applied:
+OOPS Concept Applied:
 1. Encapsulation:
 •	Each class (Student, Professor, Admin) encapsulates its properties and methods from the User class.
 •	Access to the class attributes is controlled via getters and setters.
@@ -41,10 +41,10 @@ The application will prompt you to select a user type (Student, Professor, or Ad
 •	The admin class, for ex, maintains list of students, professor, and course, demonstrating a relationship.
 
 
-##Classes and Methods:
+Classes and Methods:
 •	Main: Entry point of the code, handles user login and interaction based on user choice
 
-#•	Student
+•	Student
 
 Methods:
 
@@ -56,7 +56,7 @@ Methods:
 6.	Drop_complaint() – submit a complaint
 7.	Viewcomplaint() – views complaint
 
-#•	Professor
+•	Professor
 
 Methods:
 
@@ -64,7 +64,7 @@ Methods:
 2.	Managecourse() – manage course details like updating syllabus, class timings, course credits, enrolment limit etc
 3.	Display_enrolled_students() – displays the students enrolled in a particular course
 
-#•	Administrator
+•	Administrator
 
 Methods:
 
@@ -73,7 +73,7 @@ Methods:
 3.	Listcourse() – list all the courses added in course catalog
 4.	Handle_complaints() – handles the complaint, basically resolving the student pending complaint, if any   
 
-#•	Course
+•	Course
 
 Attributes:
 
