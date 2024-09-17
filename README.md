@@ -23,22 +23,22 @@ The application will prompt you to select a user type (Student, Professor, or Ad
 
 
 
-## OOPS Concept Applied: <br>
+## OOPS Concept Applied: 
 1. Encapsulation: <br>
 •	Each class (Student, Professor, Admin) encapsulates its properties and methods from the User class. <br>
 •	Access to the class attributes is controlled via getters and setters.
 
-2.Inheritence: <br>
+2. Inheritence: <br>
 •	The professor, Student, Admin classes inherit from a common User class to share common attributes and methods such as login credentials.
 
-3.Polymorphism: <br>
-•	Different user types implements their own versions of method such as display(), reflecting different functionalities based on user type.
+3. Polymorphism: <br>
+•	Different user types implement method versions such as display(), reflecting different functionalities based on user type.
 
 4. Abstraction: <br>
 •	Abstraction is used in the User class; it interacts with a high-level interface (login page and options/menus).
 
-5.Composition: <br>
-•	The admin class, for ex, maintains list of students, professor, and course, demonstrating a relationship.
+5. Composition: <br>
+•	The admin class, for ex, maintains a list of students, professors, and courses, demonstrating a relationship.
 
 
 ## Classes and Methods: 
