@@ -14,11 +14,11 @@ Note:  Follow the prompts-
 The application will prompt you to select a user type (Student, Professor, or Admin). Based on your selection, you will be asked to log in with credentials and perform various actions as per the menu options.
 
 
-## Assumptions: 
-•	Each user type (Student, Professor, Administrator) has specific credentials to login.
-•	Student can register for courses, view schedule, register for courses, drop courses, and submit complaints etc.
-•	Professor can view their courses, manage course details, and view enrolled students.
-•	Admin can add or delete courses, handle complaints etc.
+## Assumptions: <br>
+•	Each user type (Student, Professor, Administrator) has specific credentials to login. <br>
+•	Student can register for courses, view schedule, register for courses, drop courses, and submit complaints etc. <br>
+•	Professor can view their courses, manage course details, and view enrolled students. <br>
+•	Admin can add or delete courses, handle complaints etc. <br>
 •	All necessary class (Student, Professor, Admin) and their methods are defined correctly.
 
 
